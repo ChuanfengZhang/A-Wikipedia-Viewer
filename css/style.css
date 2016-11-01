@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    background-color: #79CDCD;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 30%;
+}
+
+.random {
+    margin-top: 50px;
+}
+
+#search {
+    border-radius: 10px;
+}
+
+.search-section {
+    text-align: center;
+}
+
+#s-btn {
+    margin-left: 3px;
+}
+
+.results {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
