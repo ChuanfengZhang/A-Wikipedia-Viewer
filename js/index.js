@@ -18,6 +18,8 @@ function search() {
         success: function(data) {
             // First we clear the children from our class to make sure no previous results are showing.
             $('.results').empty();
+            $('#search').css("width", "20%");
+            $("body").css("margin-top", "15%");
             // Then we also clear the array with the results before providing new information.
             arrResults.length = 0;
             var resArr = data.query.search;
@@ -28,7 +30,8 @@ function search() {
                 // Displays the elements to the page
                 $('.results').append(html);
             }
-            $('#search').css('width', '55%');
+            $('#search').css("width", "25%");
+            $("body").css("margin-top", "3%");
         }
     });
     // This will handle when to display results based on the search bar.
